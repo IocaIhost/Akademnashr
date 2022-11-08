@@ -1,0 +1,159 @@
+a{
+    text-decoration: none;
+}
+
+.site__header{
+    background: #FFFFFF;
+}
+
+.sitenav__list{
+    list-style: none;
+}
+.nav__link{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.btn__link {
+    background-color: #FF7500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.hero__section{
+    background: #252420;
+    color: #FFFFFF;
+}
+
+.hero__content{
+    width: 390px;
+}
+
+
+.short__line{
+    width: 80px;
+    height: 3px;
+    background-color: #ff7500;
+}
+
+.hero__heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+
+.hero__paragraph{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.hero__img{
+    width: 510px;
+    height: 510px;
+}
+
+.features__heading{
+    width: 430px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+
+.fearures__item{
+    width: 340px;
+    list-style: none;
+}
+
+
+.feature__icon__wrapper{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 117, 0, 0.2);
+}
+
+.features__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+
+.features__info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+/* Discount section */
+
+.discount__section{
+    background: #252420;
+    color: #FFF;
+}
+
+.discount__content{
+    width: 440px;
+}
+
+.discount__subject{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+
+.discount__paragraph{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+.discount__highlight{
+    color: #FF7500;
+}
+
+.discount__img{
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+
+
+/* FOOTER SECTION */
+
+.footer__section{
+    background: #F8F8F8;
+}
+
+.footer__section ul{
+    list-style: none;
+}
+
+.site__footer__devider{
+    background: rgba(37, 36, 32, 0.5);
+    height: 2px;
+}
+
+.footer__links{
+    width: 224px;
+    
+}
+
+.footer__links a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #252420;
+    text-decoration: none;
+}
