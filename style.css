@@ -12,11 +12,19 @@ a{
 .site__header{
     background: #FFFFFF;
     font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.wrapped__nav{
+    display: flex;
+    align-items: center;
 }
 
 .sitenav__list{
     list-style: none;
+    display: flex;
 }
 .nav__link{
     text-transform: uppercase;
@@ -34,6 +42,9 @@ a{
 .hero__section{
     background: #252420;
     color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .hero__content{
@@ -68,10 +79,13 @@ a{
     letter-spacing: 0.5px;
     font-family: 'Roboto Condensed', sans-serif;
 }
-
+.features__list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
 .fearures__item{
     width: 340px;
-    list-style: none;
 }
 
 
@@ -91,6 +105,9 @@ a{
 /* Discount section */
 
 .discount__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     background: #252420;
     color: #FFF;
 }
@@ -124,13 +141,29 @@ a{
     background: #F8F8F8;
 }
 
+.site__footer__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .footer__section ul{
     list-style: none;
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
 }
 
 .site__footer__devider{
     background: rgba(37, 36, 32, 0.5);
     height: 2px;
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .footer__links{
