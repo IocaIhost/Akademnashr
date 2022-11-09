@@ -8,6 +8,17 @@ body{
 a{
     text-decoration: none;
 }
+.logo{
+    transition: opacity 0.4s ease ;
+}
+
+.logo:hover{
+    opacity: 0.8;
+}
+
+.logo:active{
+    opacity: 0.6;
+}
 
 .site__header{
     background: #FFFFFF;
@@ -27,8 +38,21 @@ a{
     display: flex;
 }
 .nav__link{
+    font-style: 13px;
     text-transform: uppercase;
-    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #252420;
+    transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+.nav__link:hover{
+    color: #FF7500;
+}
+
+.nav__link:active{
+    opacity: 0.6;
 }
 
 .btn__link {
@@ -37,8 +61,16 @@ a{
     line-height: 15px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    transition: opacity 0.4s ease;
 }
 
+.btn__link:hover{
+    opacity: 0.8;
+}
+
+.btn__link:active{
+    opacity: 0.6;
+}
 .hero__section{
     background: #252420;
     color: #FFFFFF;
@@ -156,6 +188,19 @@ a{
     align-items: center;
 }
 
+.footer__socials a{
+    color: #252420;
+    transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.footer__socials a:hover{
+    color: #FF7500;
+}
+
+.footer__socials a:active{
+    opacity: 0.6;
+}
+
 .site__footer__devider{
     background: rgba(37, 36, 32, 0.5);
     height: 2px;
@@ -176,4 +221,14 @@ a{
     font-weight: 400;
     color: #252420;
     text-decoration: none;
+    transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+.footer__links a:hover{
+    color: #FF7500;
+}
+
+.footer__links a:active{
+    opacity: 0.6;
+
 }
