@@ -14,6 +14,11 @@ body{
 a{
     text-decoration: none;
 }
+
+hr{
+    border: 0;
+}
+
 .logo{
     transition: opacity 0.4s ease ;
 }
@@ -27,11 +32,13 @@ a{
 }
 
 .site__header{
+    border-top: 5px solid #FF7500;
     background: #FFFFFF;
     font-family: 'Roboto Condensed', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 16px 170px;
 }
 
 .wrapped__nav{
@@ -40,6 +47,7 @@ a{
 }
 
 .sitenav__list{
+    padding: 0;
     list-style: none;
     display: flex;
 }
@@ -62,8 +70,12 @@ a{
 }
 
 .btn__link {
+    display: inline-block;
     background-color: #FF7500;
+    padding: 12px 24px;
+    border-radius: 4px;
     font-size: 13px;
+    font-weight: bold;
     line-height: 15px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
@@ -107,6 +119,15 @@ a{
 .hero__img{
     width: 510px;
     height: 510px;
+    border-radius: 8px;
+}
+
+
+/* FEATURES SECTION */
+
+.features{
+    padding-top: 210px;
+    padding-bottom: 210px;
 }
 
 .features__heading{
@@ -121,6 +142,7 @@ a{
     display: flex;
     list-style: none;
     justify-content: space-between;
+    padding: 0;
 }
 .fearures__item{
     width: 340px;
@@ -128,9 +150,13 @@ a{
 
 
 .feature__icon__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
     background-color: rgba(255, 117, 0, 0.2);
+    border-radius: 50%;
 }
 
 .features__title{
@@ -143,8 +169,10 @@ a{
 /* Discount section */
 
 .discount__section{
+    border-radius: 12px;
     display: flex;
     align-items: center;
+    border-radius: 12px;
     justify-content: space-evenly;
     background: #252420;
     color: #FFF;
@@ -170,12 +198,15 @@ a{
     width: 440px;
     height: 440px;
     object-fit: cover;
+    border-radius: 12px;
 }
 
 
 /* FOOTER SECTION */
 
 .footer__section{
+    padding-top: 56px;
+    padding-bottom: 56px;
     background: #F8F8F8;
 }
 
@@ -190,6 +221,7 @@ a{
 }
 
 .footer__socials {
+    padding: 0;
     display: flex;
     align-items: center;
 }
@@ -210,6 +242,7 @@ a{
 .site__footer__devider{
     background: rgba(37, 36, 32, 0.5);
     height: 2px;
+    border: 0;
 }
 
 .footer__bottom{
@@ -218,6 +251,7 @@ a{
 }
 
 .footer__links{
+    padding: 0;
     width: 224px;
     line-height: 19px;
 
